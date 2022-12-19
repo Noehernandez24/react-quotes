@@ -26,6 +26,7 @@ p{
   margin: 0 auto;
   max-width: 650px;
   transition: all .3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 8px 8px 15px;
 }
 
 .quote-info{
