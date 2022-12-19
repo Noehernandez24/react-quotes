@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&family=Montserrat:wght@500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Montserrat', sans-serif;;
+}
+
+p{
+  font-size: .9rem;
+}
+.card-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 650px;
+  transition: all .3s;
+}
+
+.quote-info{
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 15px;
+  text-align: center;
+}
+
+.quote-end{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.quote-author{
+  font-family: 'Barlow', sans-serif;
+  text-align: end;
+  padding: 0 10px;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.quote-btn{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: crimson;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+
+@media screen and (min-width: 1025px) {
+  p{
+    font-size: 1.2rem;
+  }
+
+  .bx-chevron-right{
+    transition: .3s;
+  }
+
+  .bx-chevron-right:hover{
+    transform: scale(1.1);
+  }
+}
