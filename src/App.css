@@ -54,7 +54,6 @@ p{
   justify-content: flex-end;
   padding: 0 20px;
   margin: 15px 0;
-  cursor: pointer;
 }
 
 .quote-btn{
@@ -66,6 +65,7 @@ p{
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 
